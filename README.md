@@ -1,13 +1,13 @@
 # student-mental-health-risk-prediction
 
 
-# 🧠 Student Mental Health Risk Prediction
+#  Student Mental Health Risk Prediction
 
 A real-world data science project that uses academic, behavioral, and lifestyle indicators to predict student mental health risk levels (Low, Medium, High). Built with Random Forest, SMOTE, SHAP, and Tableau for explainability and visualization.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - **Source:** UCI Student Performance Dataset  
 - **Records:** 395 students  
@@ -15,14 +15,14 @@ A real-world data science project that uses academic, behavioral, and lifestyle 
 
 ---
 
-## 🧠 Objective
+##  Objective
 
 Identify students at **risk of mental health decline** using behavioral and academic indicators.  
 This project simulates a real-world school scenario where early intervention could be triggered based on predicted risk levels.
 
 ---
 
-## 📊 Target Variable
+##  Target Variable
 
 A **custom `mental_health_risk` score** was engineered based on:
 - Final grades (G1, G2, G3)
@@ -33,7 +33,7 @@ A **custom `mental_health_risk` score** was engineered based on:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python** (Pandas, scikit-learn, imblearn)
 - **Random Forest Classifier**
@@ -43,23 +43,23 @@ A **custom `mental_health_risk` score** was engineered based on:
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 | Model                   | Accuracy | High Risk Recall | Medium Risk Recall |
 |------------------------|----------|------------------|--------------------|
 | Logistic Regression     | 79.7%    | 17%              | 33%                |
 | Random Forest           | 74.6%    | 0%               | 27%                |
-| ✅ Random Forest + SMOTE| **78.4%**| **33%**          | **27%**            |
+| Random Forest + SMOTE| **78.4%**| **33%**          | **27%**            |
 
 ---
 
-## 📊 Tableau Dashboard
+##  Tableau Dashboard
 
 Link: 
 
 ---
 
-## 🔍 SHAP Insights
+##  SHAP Insights
 
 SHAP visualizations showed:
 - **Absences**, **study time**, and **alcohol use** were key predictors of mental health decline.
