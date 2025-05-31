@@ -55,7 +55,7 @@ A **custom `mental_health_risk` score** was engineered based on:
 
 ##  Tableau Dashboard
 
-Link: 
+Link: https://public.tableau.com/app/profile/asmita.deshpande/viz/StudentMentalHealthRiskPrediction/Dashboard1
 
 ---
 
